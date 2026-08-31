@@ -97,7 +97,7 @@ def selectRobot(num,vel,step_len,spno):
         #xml_path= 'scene_3DT.xml' #Scene
         xml_path = os.path.join(dirname + "/" + xml_path)
         xml_tree = ET.parse(xml_path) 
-        robotpath='/Repos/mujoco_menagerie/unitree_g1/g1.xml' #Robot <!-- Include sites at hip and both foot -->
+        robotpath='/unitree_g1/g1.xml' #Robot <!-- Include sites at hip and both foot -->
         robotpath = os.path.join(os.path.dirname(dirname) + "/" + robotpath)
         xml_str=addrobot2scene(xml_tree,robotpath)
 
