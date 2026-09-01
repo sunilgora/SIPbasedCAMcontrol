@@ -1,4 +1,5 @@
 # SIPbasedCAMcontrol — Weighted Task-Priority Based Centroidal Angular Momentum Control for Cyclic Gait of a Humanoid Robot on Deformable Terrain (Paper Code)
+![G1](sim_vid.gif)
 
 This repository contains the code and experiments used in the following paper:
 
